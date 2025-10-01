@@ -1,0 +1,215 @@
+{
+  "id": "cv-001",
+  "basics": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe@example.com",
+    "phone": "(555) 123-4567",
+    "url": "https://janedoe.dev",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "postalCode": "94102"
+    },
+    "socialProfiles": [
+      {
+        "username": "janedoe",
+        "url": "https://linkedin.com/in/janedoe",
+        "network": "LinkedIn"
+      },
+      {
+        "username": "janedoe",
+        "url": "https://github.com/janedoe",
+        "network": "GitHub"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "priority": 1,
+      "summaryType": "technical",
+      "summary": [
+        "Senior software engineer with 8+ years of experience building scalable mobile and web applications.",
+        "Expertise in Swift, iOS development, and cloud architecture with a proven track record of delivering high-quality products."
+      ]
+    },
+    {
+      "priority": 2,
+      "summaryType": "management",
+      "summary": [
+        "Technical leader with 8+ years of software engineering experience and 3+ years leading cross-functional teams.",
+        "Skilled at driving strategic initiatives, mentoring engineers, and delivering products that exceed business goals."
+      ]
+    }
+  ],
+  "work": [
+    {
+      "id": "work-1",
+      "name": "Tech Innovations Inc",
+      "startDate": "June 2020",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      "positions": [
+        {
+          "id": "pos-1",
+          "position": "Senior iOS Engineer",
+          "startDate": "June 2020",
+          "highlights": [
+            "Led development of flagship mobile app with 1M+ downloads and 4.8-star rating",
+            "Reduced crash rate by 60% through improved error handling and testing practices",
+            "Mentored team of 5 junior developers and conducted code reviews",
+            "Implemented CI/CD pipeline reducing deployment time by 40%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-2",
+      "name": "StartupCo",
+      "startDate": "January 2018",
+      "endDate": "May 2020",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      "positions": [
+        {
+          "id": "pos-2",
+          "position": "iOS Developer",
+          "startDate": "January 2018",
+          "endDate": "May 2020",
+          "highlights": [
+            "Built iOS app from ground up using Swift and SwiftUI",
+            "Integrated RESTful APIs and implemented offline data sync",
+            "Collaborated with design team to create intuitive user interfaces",
+            "Achieved 30% improvement in app performance through optimization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-3",
+      "name": "Digital Solutions LLC",
+      "startDate": "June 2016",
+      "endDate": "December 2017",
+      "location": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "positions": [
+        {
+          "id": "pos-3",
+          "position": "Junior Software Engineer",
+          "startDate": "June 2016",
+          "endDate": "December 2017",
+          "highlights": [
+            "Developed mobile features for enterprise iOS applications",
+            "Participated in Agile development process with 2-week sprints",
+            "Fixed bugs and implemented unit tests to improve code quality"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "State University",
+      "studyType": "Bachelor of Science",
+      "area": "Computer Science",
+      "startDate": "September 2012",
+      "endDate": "May 2016",
+      "gpa": "3.8",
+      "location": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "courses": [
+        "Data Structures and Algorithms",
+        "Mobile Application Development",
+        "Database Systems",
+        "Software Engineering"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "name": "Swift",
+      "level": "Expert",
+      "keywords": ["iOS", "SwiftUI", "Combine"]
+    },
+    {
+      "id": "skill-2",
+      "name": "iOS Development",
+      "level": "Expert",
+      "keywords": ["UIKit", "SwiftUI", "Core Data"]
+    },
+    {
+      "id": "skill-3",
+      "name": "Software Architecture",
+      "level": "Advanced",
+      "keywords": ["MVVM", "Clean Architecture", "Design Patterns"]
+    },
+    {
+      "id": "skill-4",
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["Version Control", "GitHub", "GitLab"]
+    },
+    {
+      "id": "skill-5",
+      "name": "CI/CD",
+      "level": "Advanced",
+      "keywords": ["Fastlane", "GitHub Actions", "Jenkins"]
+    },
+    {
+      "id": "skill-6",
+      "name": "REST APIs",
+      "level": "Advanced",
+      "keywords": ["URLSession", "Alamofire", "API Integration"]
+    },
+    {
+      "id": "skill-7",
+      "name": "Testing",
+      "level": "Advanced",
+      "keywords": ["XCTest", "Unit Testing", "UI Testing"]
+    },
+    {
+      "id": "skill-8",
+      "name": "Agile/Scrum",
+      "level": "Advanced",
+      "keywords": ["Sprint Planning", "Retrospectives", "Stand-ups"]
+    }
+  ],
+  "volunteer": [
+    {
+      "id": "vol-1",
+      "organization": "Code for Good",
+      "position": "iOS Development Mentor",
+      "startDate": "January 2021",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      "highlights": [
+        "Mentored aspiring iOS developers in Swift programming",
+        "Conducted monthly workshops on mobile development best practices"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub-1",
+      "name": "Building Scalable iOS Applications: A Practical Guide",
+      "publisher": "Tech Journal",
+      "releaseDate": "March 2023",
+      "url": "https://techjournal.com/scalable-ios",
+      "highlights": [
+        "Article featured on iOS Dev Weekly"
+      ]
+    }
+  ]
+}
