@@ -198,7 +198,7 @@ public class ResumeBuilder {
             work = Array(work.prefix(maxEntries))
         }
 
-        return work.isEmpty ? nil : work
+		return work.isEmpty ? Array(work.prefix(configuration.maxWorkEntries ?? 5)) : work
     }
 
     private func filterSkills(_ skills: [Skill]?, configuration: ResumeConfiguration) -> [Skill]? {
