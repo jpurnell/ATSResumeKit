@@ -19,7 +19,7 @@ Add this to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "path-to-your-repo/ATSResumeKit", from: "1.0.0")
+    .package(url: "https://github.com/jpurnell/ATSResumeKit", from: "1.0.0")
 ]
 ```
 
